@@ -1,0 +1,3 @@
+[submodule "libtdms"]
+	path = libtdms
+	url = git@github.com:gitplcc/TDMS.git
