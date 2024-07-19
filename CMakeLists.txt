@@ -34,4 +34,5 @@ check_ipo_supported(RESULT IPO_SUPPORTED LANGUAGES C CXX)
 
 #~ configure_file(config.h.cmake config.h)
 
+add_subdirectory(libtdms)
 add_subdirectory(usbevent)

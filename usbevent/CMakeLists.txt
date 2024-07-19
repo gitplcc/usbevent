@@ -3,4 +3,8 @@ target_sources(usbevent
     PRIVATE
         usbevent.c
 )
-target_link_libraries(usbevent PRIVATE PkgConfig::LIBUSB1)
+target_link_libraries(usbevent
+    PRIVATE
+        PkgConfig::LIBUSB1
+        LibTDMS::static
+)
